@@ -49,3 +49,43 @@ img{
     /* 設定內側留白以便配合窄畫面 */
     padding: 0 4%;
 }
+/* home */
+.home-content{
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p{
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+/* 標題 */
+.page-title{
+    font-size: 5rem;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+/* 按鈕 */
+.button{
+    font-size: 1.375rem;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+.button:hover{
+    background: #0090aa;
+}
+/* 大型背景圖像 */
+.big-bg{
+    background-size: cover;
+    background-position:  center top;
+    background-repeat: no-repeat;
+}
+#home{
+    background-image: url(../img/main-bg.jpg);
+    min-height: 100vh;
+}
+#home .page-title{
+    text-transform: none;
+}
